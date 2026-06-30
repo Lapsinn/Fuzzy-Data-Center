@@ -13,13 +13,13 @@ The project has been modularly split into two layers:
 ### Option A: The Streamlit Web Dashboard (GUI)
 Provides visual charts, physical closed-loop simulations, and step-by-step graphical inspect curves:
 ```powershell
-streamlit run data_center/data_center.py
+streamlit run data_center.py
 ```
 
 ### Option B: The Fuzzy Engine CLI Utility (Terminal)
 Evaluates a single state state logic query. It prompts you for input variables and outputs fuzzification details, active rules, and cooling outcome:
 ```powershell
-python data_center/fuzzy_engine.py
+python fuzzy_engine.py
 ```
 
 ---
